@@ -1,0 +1,19 @@
+
+https://medium.freecodecamp.org/cracking-the-front-end-interview-9a34cd46237
+
+1.A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user hovers over it.
+selector:pseudo-class {
+  property: value;
+}
+button:hover {
+  background-color: #F89B4D;
+}
+
+2.A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+selector::pseudo-element {
+  property: value;
+}
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}
